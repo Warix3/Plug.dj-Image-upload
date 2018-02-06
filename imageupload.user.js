@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Plug.dj image upload
 // @namespace    Warix3
-// @version      1.0
+// @version      1.1
 // @description  Adds an option to upload images to the plug.dj chat.
 // @downloadURL    https://rawgit.com/Warix3/Plug.dj-Image-upload/master/imageupload.user.js
 // @updateURL      https://rawgit.com/Warix3/Plug.dj-Image-upload/master/imageupload.user.js
@@ -48,8 +48,12 @@ background: #fff !important;
 }
 
 #chat-input {
-width: 300px !important;
+width: 302px !important;
 left: 38px !important;
+}
+
+#chat-input-field {
+width: 290px !important;
 }
 
 .noselect {
